@@ -1,0 +1,200 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0d0d0e;
+  --color-surface: #141415;
+  --color-surface-2: #1c1c1e;
+  --color-border: #2a2a2e;
+  --color-border-subtle: #222226;
+  --color-text: #e8e6e1;
+  --color-text-muted: #8a8880;
+  --color-text-faint: #4a4945;
+  --color-accent: #c9a96e;
+  --color-accent-muted: #8a7249;
+  --color-accent-subtle: #2a2218;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Lora", "Georgia", serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-color: var(--color-bg);
+  }
+
+  ::selection {
+    background-color: var(--color-accent-subtle);
+    color: var(--color-accent);
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-text-faint);
+  }
+}
+
+@layer components {
+  .prose-home {
+    font-family: var(--font-serif);
+    line-height: 1.85;
+    color: var(--color-text);
+  }
+
+  .section-divider {
+    border: none;
+    height: 1px;
+    background: var(--color-border-subtle);
+  }
+
+  .card-surface {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: var(--radius-lg);
+  }
+
+  .card-surface-2 {
+    background: var(--color-surface-2);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+  }
+
+  .nav-link {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+    transition: color 0.2s ease;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    color: var(--color-text);
+  }
+  .nav-link.active {
+    color: var(--color-text);
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--color-accent);
+    color: #0d0d0e;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.625rem 1.25rem;
+    border-radius: var(--radius-md);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+  .btn-primary:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.625rem 1.25rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+  }
+  .btn-ghost:hover {
+    color: var(--color-text);
+    border-color: var(--color-text-faint);
+    transform: translateY(-1px);
+  }
+
+  .skill-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.8125rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    background: var(--color-surface);
+    transition: border-color 0.2s, color 0.2s;
+    white-space: nowrap;
+  }
+  .skill-badge:hover {
+    border-color: var(--color-accent-muted);
+    color: var(--color-accent);
+  }
+
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    background: var(--color-border-subtle);
+    top: 0;
+    bottom: 0;
+  }
+
+  .timeline-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    border: 2px solid var(--color-bg);
+    flex-shrink: 0;
+  }
+}
+
+@layer utilities {
+  .text-accent {
+    color: var(--color-accent);
+  }
+  .text-muted {
+    color: var(--color-text-muted);
+  }
+  .text-faint {
+    color: var(--color-text-faint);
+  }
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+  .bg-surface-2 {
+    background-color: var(--color-surface-2);
+  }
+  .border-subtle {
+    border-color: var(--color-border-subtle);
+  }
+  .border-base {
+    border-color: var(--color-border);
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "pmii",
+    "name": "PMII",
+    "fullName": "Pergerakan Mahasiswa Islam Indonesia",
+    "period": "2022 — sekarang",
+    "role": "Anggota & Kader",
+    "narrative": "Di sinilah saya belajar bahwa kepemimpinan bukan soal berdiri paling depan, tetapi memastikan tidak ada yang tertinggal di belakang. PMII mengajarkan saya tentang berpikir kritis, tanggung jawab sosial, dan bahwa setiap keputusan selalu membawa konsekuensi yang menyentuh kehidupan orang banyak.",
+    "values": ["Kepemimpinan", "Berpikir Kritis", "Tanggung Jawab Sosial", "Kaderisasi"],
+    "color": "amber"
+  },
+  {
+    "id": "mahapeka",
+    "name": "Mahapeka",
+    "fullName": "Mahasiswa Pecinta Alam",
+    "period": "2022 — sekarang",
+    "role": "Anggota",
+    "narrative": "Gunung mengajarkan bahwa tidak semua perjalanan bisa dipercepat. Ada langkah yang memang harus dinikmati, bukan dilewati. Mahapeka mengajarkan saya tentang ketangguhan, kerja tim, dan kerendahan hati di hadapan alam — sesuatu yang tidak bisa diajarkan di dalam kelas mana pun.",
+    "values": ["Ketangguhan", "Kerja Tim", "Kesadaran Lingkungan", "Kerendahan Hati"],
+    "color": "emerald"
+  },
+  {
+    "id": "himatif",
+    "name": "HIMATIF",
+    "fullName": "Himpunan Mahasiswa Teknik Informatika",
+    "period": "2023 — sekarang",
+    "role": "Anggota",
+    "narrative": "Teknologi membuat saya berpikir sistematis. Organisasi mengajarkan saya bahwa manusia tidak selalu bekerja seperti algoritma. HIMATIF menjadi tempat di mana saya belajar menggabungkan keduanya — membangun solusi teknis yang tetap mempertimbangkan kemanusiaan.",
+    "values": ["Kolaborasi Teknis", "Kepemimpinan", "Inovasi", "Komunitas"],
+    "color": "blue"
+  },
+  {
+    "id": "km-jateng",
+    "name": "KM Jateng",
+    "fullName": "Keluarga Mahasiswa Jawa Tengah",
+    "period": "2021 — sekarang",
+    "role": "Anggota",
+    "narrative": "Merantau mengajarkan saya arti rumah. KM Jateng mengajarkan saya bahwa rumah juga bisa dibangun bersama orang-orang yang belum pernah kita kenal sebelumnya. Di sini saya belajar tentang solidaritas, apresiasi budaya, dan bahwa rasa kekeluargaan bisa tumbuh di mana pun kita berada.",
+    "values": ["Solidaritas", "Budaya", "Kekeluargaan", "Komunitas"],
+    "color": "rose"
+  }
+]
