@@ -40,7 +40,7 @@ function extractThumbnail(content: string): string {
 export async function GET() {
   try {
     const res = await fetch(MEDIUM_RSS_URL, {
-      next: { revalidate: 3600 },
+      next: { revalidate: 300 }, // Cache diperbarui setiap 5 menit
     });
 
     if (!res.ok) {
