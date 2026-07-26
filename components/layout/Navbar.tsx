@@ -74,8 +74,8 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <nav
-          style={{ display: "flex", gap: "0.25rem" }}
           className="hidden md:flex"
+          style={{ gap: "0.25rem" }}
         >
           {navLinks.map((link) => (
             <Link
@@ -104,7 +104,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden"
+          className="flex md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
           style={{
@@ -113,7 +113,6 @@ export default function Navbar() {
             cursor: "pointer",
             padding: "0.5rem",
             color: "var(--color-text-muted)",
-            display: "flex",
             flexDirection: "column",
             gap: "5px",
           }}
@@ -158,6 +157,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div
+          className="md:hidden"
           style={{
             borderTop: "1px solid var(--color-border-subtle)",
             backgroundColor: "rgba(13,13,14,0.97)",

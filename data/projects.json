@@ -3,14 +3,14 @@
     "id": "ml-rainfall",
     "title": "Prediksi Curah Hujan dengan SVR",
     "category": "Machine Learning",
-    "year": "2026",
+    "year": "2025",
     "story": "Saya mengembangkan model prediksi curah hujan menggunakan Support Vector Regression dengan pendekatan Feature Engineering agar model lebih akurat dalam memahami pola cuaca multivariat.",
     "problem": "Data cuaca bersifat tidak linear dan memiliki banyak variabel yang saling bergantung. Model prediksi sederhana sering gagal menangkap pola kompleks ini.",
     "solution": "Menggunakan SVR dengan kernel RBF dan melakukan feature engineering untuk mengekstrak pola temporal dari data historis, sehingga model dapat memahami hubungan antar variabel cuaca secara lebih mendalam.",
     "technologies": ["Python", "Scikit-learn", "SVR", "Feature Engineering", "Pandas", "Matplotlib"],
     "result": "Model mencapai akurasi yang lebih baik dibanding baseline dengan RMSE yang signifikan lebih rendah setelah proses feature engineering.",
     "reflection": "Proyek ini mengajarkan saya bahwa data saja tidak cukup — cara kita memandang dan mempersiapkan data adalah separuh dari jawabannya.",
-    "status": "In Progress"
+    "status": "Selesai"
   },
   {
     "id": "digital-home",
@@ -29,7 +29,7 @@
     "id": "coffee-learning",
     "title": "Belajar dari Secangkir Kopi",
     "category": "Refleksi",
-    "year": "2025",
+    "year": "2024",
     "story": "Menjadi barista mengajarkan hal-hal yang tidak ada di kurikulum kampus mana pun — tentang pelayanan, kesabaran, dan bagaimana membuat orang merasa diterima.",
     "problem": "Di era digital yang serba cepat, kemampuan melayani dengan tulus dan hadir sepenuhnya menjadi semakin langka.",
     "solution": "Belajar langsung dari pengalaman — setiap cangkir kopi yang dibuat adalah latihan untuk hadir, fokus, dan peduli terhadap detail.",
@@ -37,5 +37,31 @@
     "result": "Perspektif baru bahwa teknologi dan humanisme bisa — dan harus — berjalan beriringan.",
     "reflection": "Barista terbaik bukan yang paling cepat, tetapi yang paling hadir untuk tamunya.",
     "status": "Berlangsung"
+  },
+  {
+    "id": "cbt-bimtes-pmii",
+    "title": "Aplikasi CBT Bimtes PMII",
+    "category": "Web Development",
+    "year": "2026",
+    "story": "Mengembangkan sistem Computer Based Test (CBT) untuk Bimbingan Tes PMII guna mempermudah proses evaluasi dan simulasi pengerjaan soal bagi calon mahasiswa secara terstruktur dan terukur.",
+    "problem": "Proses tes simulasi manual memakan banyak waktu untuk koreksi, boros penggunaan kertas, serta rawan kesalahan saat rekapitulasi nilai peserta secara massal.",
+    "solution": "Membangun platform CBT berbasis web yang dilengkapi fitur manajemen bank soal, sistem acak soal dan opsi jawaban, timer otomatis, serta pengolahan nilai peserta secara realtime.",
+    "technologies": ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap"],
+    "result": "Proses ujian dan rekapitulasi hasil tes menjadi jauh lebih cepat, akurat, dan transparan bagi pengurus serta seluruh peserta bimtes.",
+    "reflection": "Sistem yang baik adalah sistem yang mampu mempermudah kerja organisasi tanpa mengurangi esensi dari proses evaluasi itu sendiri.",
+    "status": "Selesai"
+  },
+  {
+    "id": "pos-erabarala",
+    "title": "POS & Rental Outdoor Erabarala",
+    "category": "Mobile Development",
+    "year": "2025",
+    "story": "Mengembangkan aplikasi Point of Sale (POS) mobile berbasis Flutter untuk Erabarala — tempat persewaan alat outdoor yang juga menjual berbagai perlengkapan dan peralatan outdoor.",
+    "problem": "Pengelolaan transaksi rental alat outdoor memerlukan perhitungan durasi dan tanggal pengembalian yang rumit, disamping perlunya mencatat penjualan barang secara bersamaan agar stok tetap akurat.",
+    "solution": "Membangun aplikasi POS mobile multi-fitur menggunakan Flutter untuk mengelola penjualan barang, persewaan alat outdoor, manajemen stok inventaris, serta pengingat dan kalkulasi otomatis pengembalian rental.",
+    "technologies": ["Flutter", "Dart", "REST API", "SQLite", "Firebase"],
+    "result": "Operasional kasir dan pencatatan inventaris Erabarala menjadi terintegrasi, rapi, dan meminimalisir kesalahan perhitungan biaya rental maupun stok barang.",
+    "reflection": "Aplikasi mobile yang responsif dan fleksibel di lapangan memberikan dampak nyata bagi efisiensi operasional usaha retail dan persewaan.",
+    "status": "Selesai"
   }
 ]

@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Catatan Perjalanan",
   description:
-    "Belajar dari PMII. Belajar dari Coffee Shop. Belajar dari Gunung. Belajar dari Hidup. Ini adalah catatan-catatan kecil dari perjalanan yang masih terus berlanjut.",
+    "Belajar dari Organisasi. Belajar dari Coffee Shop. Belajar dari Alam. \n karena sejatinya manusia harus terus belajar. Ini adalah catatan-catatan kecil dari perjalanan yang masih terus berlanjut.",
 };
 
 export default function Catatan() {

@@ -1,7 +1,7 @@
 {
-  "programming": ["Python", "JavaScript", "TypeScript", "PHP", "HTML/CSS", "SQL"],
+  "programming": ["Python", "JavaScript", "TypeScript", "Dart", "PHP", "HTML/CSS", "SQL"],
   "machineLearning": ["Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Feature Engineering", "SVR"],
-  "webDev": ["Next.js", "React", "Tailwind CSS", "Node.js"],
+  "webDev": ["Flutter", "Next.js", "React", "Tailwind CSS", "Node.js"],
   "leadership": ["Manajemen Organisasi", "Kaderisasi", "Komunikasi Publik", "Fasilitasi"],
   "softSkills": ["Pelayanan", "Kerja Tim", "Berpikir Kritis", "Adaptasi", "Menulis Reflektif"]
 }
