@@ -107,10 +107,9 @@ export default function BlogPage() {
                 maxWidth: "520px",
               }}
             >
-              Belajar dari PMII. Belajar dari coffee shop. Belajar dari gunung.
-              Belajar dari skripsi. Belajar dari hidup. Karena setiap momen
-              punya pelajaran — asal kita mau berhenti sejenak untuk
-              memperhatikannya.
+              Belajar dari Organisasi. Belajar dari Coffee Shop. Belajar dari Alam.
+              Karena sejatinya manusia harus terus belajar. 
+              Setiap momen punya pelajaran — asal kita mau berhenti sejenak untuk memperhatikannya.
             </p>
           </div>
         </AnimatedSection>

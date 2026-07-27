@@ -91,7 +91,7 @@ export default function HomePage() {
             >
               <p>Mahasiswa Teknik Informatika.</p>
               <p>Barista.</p>
-              <p>Aktif di organisasi.</p>
+              <p>Aktivis</p>
               <p>Pencinta Alam.</p>
               <p style={{ marginTop: "1rem" }}>
                 Sedang belajar bagaimana teknologi bisa menjadi jalan untuk
